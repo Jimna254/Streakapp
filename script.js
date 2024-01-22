@@ -22,4 +22,8 @@ function loadHabits() {
     .catch((error) => console.error("Error:", error));
 }
 
+document.querySelector(".add-icon").addEventListener("click", function () {
+  window.location.href = "add.html";
+});
+
 window.onload = loadHabits;

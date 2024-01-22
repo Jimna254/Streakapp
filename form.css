@@ -1,3 +1,8 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: bisque;
+}
 .maincontainer {
   display: flex;
   justify-content: center;
@@ -13,5 +18,5 @@ form {
 form > #habitName,
 form > #date,
 button {
-  font-size: 16px;
+  font-size: 20px;
 }

@@ -9,6 +9,16 @@
       "id": 2,
       "name": "Junk Food",
       "stoppedOn": "2024-01-05"
+    },
+    {
+      "id": "6020",
+      "name": "Driinking",
+      "stoppedOn": "2024-01-01"
+    },
+    {
+      "id": "2575",
+      "name": "Ushebedu",
+      "stoppedOn": "2024-01-01"
     }
   ]
 }
