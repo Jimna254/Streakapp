@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="maincontainer">
+      <h2>Add New Habit</h2>
+      <form id="newHabitForm">
+        <label for="habitName">Enter HabitName</label> <br />
+        <input
+          type="text"
+          id="habitName"
+          placeholder="Drinking"
+          required
+        /><br /><br />
+
+        <label for="date">Enter the day you Stopped.</label><br />
+        <input type="date" id="habitStoppedOn" required /><br /><br />
+        <button type="submit">Add Habit</button>
+      </form>
+    </div>
+  </body>
+</html>

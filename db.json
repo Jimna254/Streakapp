@@ -1,0 +1,14 @@
+{
+  "habits": [
+    {
+      "id": 1,
+      "name": "Smoking",
+      "stoppedOn": "2023-12-19"
+    },
+    {
+      "id": 2,
+      "name": "Junk Food",
+      "stoppedOn": "2024-01-05"
+    }
+  ]
+}

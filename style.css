@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.maincontainer {
+  margin: 0 10% 0 10%;
+}
+.profile {
+  height: 40vh;
+  display: flex;
+  background-color: hwb(32 0% 0%);
+  border-radius: 20px;
+}
+
+.imagecard {
+  width: 60%;
+  background-image: url("/Images/tracking-employee-health-metrics-great-idea-or-big-mistake-1200x630.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.profiledetails h1 {
+  margin-bottom: 5%;
+}
+.profiledetails p {
+  font-weight: bold;
+}
+
+.habits {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 2.5%;
+}
+.habits > .habitcard {
+  background-color: bisque;
+  height: 20vh;
+  width: calc((98% - (7%)) / 3);
+  margin: 1%;
+  text-align: center;
+  border-radius: 10px;
+  border-top: solid orange;
+  padding: 10px;
+}
+.habitcard > p {
+  margin-top: 10px;
+}
+
+ion-icon {
+  color: darkgoldenrod;
+}
+
+

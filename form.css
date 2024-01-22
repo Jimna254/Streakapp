@@ -1,0 +1,17 @@
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10%;
+  flex-direction: column;
+}
+
+form {
+  margin-top: 20px;
+}
+
+form > #habitName,
+form > #date,
+button {
+  font-size: 16px;
+}
