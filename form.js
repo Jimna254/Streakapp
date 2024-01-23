@@ -11,7 +11,7 @@ document
       stoppedOn: habitStoppedOn,
     };
 
-    fetch("http://localhost:3001/habits", {
+    fetch("http://localhost:3000/habits", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -22,6 +22,7 @@ document
       .then((data) => {
         console.log("Success:", data);
         loadHabits();
+        // window.location.href = "index.html";
       })
       .catch((error) => {
         console.error("Error:", error);
@@ -31,3 +32,7 @@ document
     document.getElementById("habitName").value = "";
     document.getElementById("habitStoppedOn").value = "";
   });
+
+document.querySelector(".btnadd").addEventListener("click", function () {
+  window.location.href = "index.html";
+});
